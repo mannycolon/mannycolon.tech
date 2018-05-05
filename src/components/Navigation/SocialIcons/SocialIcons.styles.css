@@ -1,0 +1,13 @@
+
+#social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 530px) {
+  #social-icons {
+    display: none
+  }
+}

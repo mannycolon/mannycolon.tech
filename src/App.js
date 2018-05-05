@@ -8,10 +8,8 @@ import {
 // assets
 import './App.css'
 // components
-import NavigationIcons from './components/navigation/NavigationIcons'
-import SocialIcons from './components/navigation/SocialIcons'
-import HomeIcon from './components/navigation/HomeIcon'
-import Home from './components/Home'
+import Navigation from './components/Navigation';
+import Home from './components/Home/index'
 import About from './components/About'
 import Skills from './components/Skills'
 import MyWork from './components/MyWork'
@@ -23,11 +21,7 @@ class App extends Component {
       <MuiThemeProvider>
         <Router>
           <div className="App">
-            <div id="portfolio-navbar">
-              <HomeIcon />
-              <NavigationIcons />
-              <SocialIcons />
-            </div>
+            <Navigation />
             <div id="portfolio-body">
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>

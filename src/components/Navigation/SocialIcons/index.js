@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Icon from 'react-simple-icons'
 
+import './SocialIcons.styles.css'
+
 export default class SocialIcons extends Component {
   state = {
     instagram: false,

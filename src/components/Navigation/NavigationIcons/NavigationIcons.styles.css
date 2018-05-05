@@ -1,0 +1,35 @@
+
+/* Tooltip container */
+.tooltip {
+  margin-bottom: -10px;
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  top: -5px;
+  left: 105%;
+  visibility: hidden;
+  width: 120px;
+  background-color: #181818;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  margin: 15px 0px 0px 2px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (max-width: 530px) {
+  .tooltip:hover .tooltiptext {
+    visibility: hidden;
+  }
+}
