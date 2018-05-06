@@ -1,4 +1,4 @@
 export default {
   bodyBackgroundColor: '#252627',
-  navbarBackgorundColor: '#181818'
+  navbarBackgorundColor: '#181818',
 };

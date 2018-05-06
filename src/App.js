@@ -10,7 +10,7 @@ import './App.css'
 // components
 import Navigation from './components/Navigation';
 import Home from './components/Home/index'
-import About from './components/About'
+import About from './components/About/index'
 import Skills from './components/Skills'
 import MyWork from './components/MyWork'
 import Contact from './components/Contact'

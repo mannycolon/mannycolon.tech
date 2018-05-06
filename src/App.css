@@ -1,5 +1,33 @@
+:root {
+  --light-blue-color: #2196F3;
+  --baby-blue-color: #44C6FF;
+  --blue-color-dark: #19579E;
+
+  --white-color: #FFFFFF;
+  --red-color: #bd0826;
+  --green-color: #58C17A;
+  --orange-color: #F44336;
+  --yellow-color: #FDD910;
+
+  --black-color: #000000;
+  --light-grey-color: #EEEEEE;
+  --dark-grey-color: #333333;
+  --grey-color: #CCCCCC;
+}
+
+@font-face {
+  font-family: Prime;
+  src: url(assets/fonts/Prime.otf);
+}
+
 .App {
   text-align: center;
+}
+
+.title {
+  color: var(--red-color);
+  font-size: 50px;
+  font-family: Prime;
 }
 
 #portfolio-body {

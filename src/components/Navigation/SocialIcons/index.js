@@ -8,6 +8,7 @@ export default class SocialIcons extends Component {
     instagram: false,
     linkedin: false,
     facebook: false,
+    medium: false,
     twitter: false,
   }
 
@@ -44,6 +45,16 @@ export default class SocialIcons extends Component {
             onMouseLeave={() => this.setState({ facebook: false })}
           />
         </a>
+        {/* <a href="https://medium.com/@colonmanuel7" target="_blank" rel='noopener noreferrer'>
+          <Icon
+            name='medium'
+            size={17}
+            color={this.state.medium ? '#bd0826' : "#4d4d4e"}
+            style={{ margin: 10, cursor: 'pointer' }}
+            onMouseOver={() => this.setState({ medium: true })}
+            onMouseLeave={() => this.setState({ medium: false })}
+          />
+        </a> */}
         <a href="https://www.twitter.com/" target="_blank" rel='noopener noreferrer'>
           <Icon
             name='twitter'
