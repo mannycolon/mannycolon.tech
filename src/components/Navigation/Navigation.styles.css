@@ -9,7 +9,7 @@
   position: absolute;
   top: 0;
   z-index: 3;
-  min-height: 500px;
+  overflow-y: auto;
 }
 
 @media (max-width: 960px) {
@@ -24,24 +24,31 @@
   }
 }
 
-
 .burger-menu-icon {
-  visibility: hidden;
-  float: right;
+  display: none;
 }
 
 @media (max-width: 530px) {
   #portfolio-navbar {
     position: fixed;
+    overflow-y: initial;
   }
   .hide-navigation-icons {
     display: none;
   }
   .burger-menu-icon {
-    visibility: visible;
+    display: initial;
+    float: right;
+    /* visibility: visible; */
   }
   .home-and-burger-container {
     height: 100%;
+  }
+}
+
+@media (max-height: 400px) {
+  #portfolio-navbar {
+    justify-content: flex-start;
   }
 }
 
