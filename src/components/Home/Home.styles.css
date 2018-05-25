@@ -89,6 +89,7 @@
 
 @media (max-width: 530px) {
   .terminal-window {
+    margin-top: 25px;
     width: 300px;
     height: 400px;
     border-radius: 10px;

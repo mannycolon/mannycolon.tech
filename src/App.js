@@ -1,6 +1,7 @@
 // https://jacekjeznach.com/
 import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {
   BrowserRouter as Router,
   Route
@@ -8,17 +9,23 @@ import {
 // assets
 import './App.css'
 // components
-import Navigation from './components/Navigation';
+import Navigation from './components/Navigation'
 import Home from './components/Home/index'
 import About from './components/About/index'
-import Skills from './components/Skills'
-import MyWork from './components/MyWork'
-import Contact from './components/Contact'
+import Skills from './components/Skills/index'
+import MyWork from './components/MyWork/index'
+import Contact from './components/Contact/index'
+
+const muiTheme = getMuiTheme({
+  palette: {
+    primary1Color: 'var(--red-color)',
+  },
+});
 
 class App extends Component {
   render() {
     return (
-      <MuiThemeProvider>
+      <MuiThemeProvider muiTheme={muiTheme}>
         <Router>
           <div className="App">
             <Navigation />
