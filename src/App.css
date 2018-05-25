@@ -40,18 +40,17 @@ p {
   height: 100%;
   position: absolute;
   background: #252627;
+  overflow-x: scroll;
 }
 
 @media (max-width: 960px) {
-  #portfolio-body {
-    padding-left: 0px;
-  }
+  /* #portfolio-body {
+  } */
 }
 
 @media (max-width: 530px) {
-  #portfolio-body {
-    padding-left: 0px;
-  }
+  /* #portfolio-body {
+  } */
   .title {
     margin-top: 80px;
   }
