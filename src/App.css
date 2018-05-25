@@ -22,6 +22,9 @@
 
 p {
   font-family: "Open Sans", sans-serif;
+  width: 80%;
+  margin: 20px auto;
+  text-align: justify;
 }
 
 .App {

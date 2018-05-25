@@ -1,0 +1,30 @@
+.skills-page-container {
+  height: 80%;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+}
+
+@media (max-width: 530px) {
+  .skills-page-container {
+    height: 100%;
+  }
+  .skills-list {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .skill-title {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-height: 530px) {
+  .skills-page-container {
+    height: 100%;
+  }
+}
