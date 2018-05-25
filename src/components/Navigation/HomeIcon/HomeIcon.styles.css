@@ -1,9 +1,0 @@
-#home-icon {
-  cursor: pointer;
-}
-
-@media (max-width: 530px) {
-  #home-icon {
-    float: left;
-  }
-}
