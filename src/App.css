@@ -23,7 +23,7 @@
 p {
   font-family: "Open Sans", sans-serif;
   width: 80%;
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: justify;
 }
 
@@ -55,6 +55,8 @@ p {
   /* #portfolio-body {
   } */
   .title {
-    margin-top: 80px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    font-size: 40px;
   }
 }

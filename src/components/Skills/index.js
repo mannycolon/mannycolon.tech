@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="skills-page-container">
       <h1 className="title">Skills</h1>
-      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-around', height: '100%' }}>
+      <div className="skills-page-content">
         <p>
           My main area of expertise is Javascript full stack development.
           I build web applications using technologies like NodeJS, Express, ReactJs and MongoDB and many more.

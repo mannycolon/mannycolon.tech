@@ -9,10 +9,14 @@
   text-align: left;
 }
 
+.skills-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%
+}
+
 @media (max-width: 530px) {
-  .skills-page-container {
-    height: 100%;
-  }
   .skills-list {
     flex-direction: column;
     justify-content: space-around;
@@ -20,6 +24,9 @@
   .skill-title {
     width: 80%;
     margin: auto;
+  }
+  .skills-page-content {
+    display: block;
   }
 }
 

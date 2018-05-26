@@ -21,7 +21,8 @@ const muiTheme = getMuiTheme({
     primary1Color: 'var(--red-color)',
   },
 });
-console.log('Changes-2');
+
+console.log('Changes-3');
 
 class App extends Component {
   render() {
