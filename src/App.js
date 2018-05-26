@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route
 } from 'react-router-dom'
 // assets
@@ -21,12 +21,13 @@ const muiTheme = getMuiTheme({
     primary1Color: 'var(--red-color)',
   },
 });
+console.log('Changes-2');
 
 class App extends Component {
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div className="App">
             <Navigation />
             <div id="portfolio-body">
