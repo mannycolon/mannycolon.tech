@@ -52,8 +52,6 @@ p {
 }
 
 @media (max-width: 530px) {
-  /* #portfolio-body {
-  } */
   .title {
     margin-top: 70px;
     margin-bottom: 0px;

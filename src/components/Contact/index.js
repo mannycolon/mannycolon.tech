@@ -13,7 +13,7 @@ const styles = {
     container: {
       width: '100%',
       backgroundColor: '#37393b',
-      margin: '10px',
+      margin: '5px',
     },
     inputStyle: {
       color: '#ffffff',
@@ -154,8 +154,10 @@ class Contact extends Component {
       <div className="contact-page-container">
         <h1 className="title">Contact Me</h1>
         <div className="form-container">
-          <p>If you have any questions, please don’t hesitate to contact using form below…</p>
-          <div style={{ display: 'flex', width: '100%' }}>
+          <p style={{ width: '90%' }}>
+            If you have any questions, please don’t hesitate to contact using form below…
+          </p>
+          <div style={{ display: 'flex', width: '100%', marginTop: '10px' }}>
             <TextField
               hintText="Full Name"
               style={styles.textField.container}
@@ -179,7 +181,7 @@ class Contact extends Component {
               onChange={(event, email) => this.validateEmailText(email) }
             />
           </div>
-          <div style={{ width: '95%' }}>
+          <div style={{ width: '98%' }}>
             <TextField
               hintText="Subject"
               style={styles.textField.container}
