@@ -1,48 +1,24 @@
-// https://jacekjeznach.com/
 import React, { Component } from 'react'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {
-  HashRouter as Router,
-  Route
-} from 'react-router-dom'
+// import { HashRouter as Router, Route } from 'react-router-dom'
+import { Router, Route } from 'react-router-dom'
+import { createBrowserHistory } from "history";
+import withRoot from './utils/withRoot';
+// views
+import ProfilePage from './views/ProfilePage'
+
 // assets
 import './App.css'
-// components
-import Navigation from './components/Navigation'
-import Home from './components/Home/index'
-import About from './components/About/index'
-import Skills from './components/Skills/index'
-import MyWork from './components/MyWork/index'
-import Contact from './components/Contact/index'
 
-const muiTheme = getMuiTheme({
-  palette: {
-    primary1Color: 'var(--red-color)',
-  },
-});
-
-console.log('Changes-4');
+let hist = createBrowserHistory();
 
 class App extends Component {
   render() {
     return (
-      <MuiThemeProvider muiTheme={muiTheme}>
-        <Router basename={process.env.PUBLIC_URL}>
-          <div className="App">
-            <Navigation />
-            <div id="portfolio-body">
-              <Route exact path="/" component={Home}/>
-              <Route path="/about" component={About}/>
-              <Route path="/skills" component={Skills}/>
-              <Route exact path="/mywork" component={MyWork}/>
-              <Route path="/contact" component={Contact}/>
-            </div>
-          </div>
-        </Router>
-      </MuiThemeProvider>
+      <Router basename={process.env.PUBLIC_URL} history={hist}>
+        <Route exact path="/" component={ProfilePage} />
+      </Router>
     );
   }
 }
 
-export default App;
+export default withRoot(App);
