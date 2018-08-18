@@ -24,7 +24,7 @@ const ProfileIntro = props => {
           </div>
           <div className={classes.name}>
             <h2 className={classes.title}>Manny Colon</h2>
-            <h6>SOFTWARE ENGINEER</h6>
+            <h5>SOFTWARE ENGINEER</h5>
             <Button justIcon
                     link
                     className={classes.margin5}

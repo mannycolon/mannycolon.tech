@@ -105,7 +105,7 @@ const profilePageStyle = {
   },
   gridItemContent: {
     ...textAlignCenter,
-    paddingTop: "50px"
+    padding: "50px 0px 60px"
   },
   skillsList: {
     display: "flex",
@@ -129,9 +129,7 @@ const profilePageStyle = {
   },
   skillsUl: {
     listStyleType: "none",
-    "@media (max-width: 530px)": {
-      paddingLeft: "0px"
-    },
+    paddingLeft: "0px",
   },
   skillsFooter: {
     textAlign: "left",
