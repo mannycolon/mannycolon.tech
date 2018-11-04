@@ -25,7 +25,7 @@ function Footer({ ...props }) {
         <div className={classes.right}>
           &copy;2018 powered by{" "}
           <a
-            href="https://www.fornixsystems.com"
+            href="https://fornixsystems.com"
             className={aClasses}
             target="_blank"
           >
