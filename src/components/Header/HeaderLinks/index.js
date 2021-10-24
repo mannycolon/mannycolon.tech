@@ -50,7 +50,7 @@ const HeaderLinks = ({ ...props }) => {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/_mannycolon"
+            href="https://www.instagram.com/mannycolon.tech"
             target="_blank"
             className={classes.navLink}
           >

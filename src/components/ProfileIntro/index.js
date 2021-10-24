@@ -28,7 +28,7 @@ const ProfileIntro = props => {
             <Button justIcon
                     link
                     className={classes.margin5}
-                    href="https://www.instagram.com/_mannycolon"
+                    href="https://www.instagram.com/mannycolon.tech"
                     target="_blank">
               <i className={"fab fa-instagram"} />
             </Button>

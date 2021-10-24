@@ -20,11 +20,10 @@ const ProfileContent = props => {
             you regarding a software project or any other topic that may interest you.
           </p>
           <p className={classes.pContent}>
-            I began my journey through computer science at the age of 15. I used to search 
-            any online tutorial relates to technology. I went to a technical high school where 
-            I completed a technical education program in computer science.
-            After High school I went on to study for 3 years at Montclair State University, 
-            graduating with a Bachelors Degree in Computer Science in 2016.
+            My software engineering journey started in my teen years. Since a young age 
+            I loved researching about technology and enjoyed watching video tutorials about 
+            computer science. I went to a technical high school where I completed a technical 
+            education program in computer science. After High school I went to Montclair State University, graduating with a Bachelors Degree in Computer Science in 2016.
           </p>
         </div>
       </GridItem>
@@ -33,8 +32,7 @@ const ProfileContent = props => {
           <h2 className={classes.title}>Skills</h2>
           <p className={classes.pContent}>
             My main area of expertise is Javascript full stack development.
-            I build web applications using technologies like NodeJS, Express, ReactJs and MongoDB and many more.
-            In addition, I have experience building PHP applications.
+            I build web applications using technologies like ReactJs, NextJS, NodeJS, Express and MongoDB and many more.
           </p>
           <div className={classes.skillsList}>
             <div>
@@ -44,6 +42,7 @@ const ProfileContent = props => {
                 <li>Java</li>
                 <li>HTML5</li>
                 <li>CSS 3</li>
+                <li>C#</li>
                 <li>PHP</li>
                 <li>Python</li>
                 <li>C++</li>
@@ -67,6 +66,7 @@ const ProfileContent = props => {
                 <li>PostgreSQL</li>
               </ul>
             </div>
+            <p>I’m currently learning <a href="https://en.wikipedia.org/wiki/Extended_reality" target="_blank" rel='noopener noreferrer' style={{ color: 'var(--red-color)'}}>XR</a> Development with <a href="https://unity.com/" target="_blank" rel='noopener noreferrer' style={{ color: 'var(--red-color)'}}>Unity</a>.</p>
           </div>
           <div className={classes.skillsFooter}>
             <p style={{ margin: "0px" }}>
