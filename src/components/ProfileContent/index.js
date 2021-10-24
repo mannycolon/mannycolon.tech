@@ -66,8 +66,8 @@ const ProfileContent = props => {
                 <li>PostgreSQL</li>
               </ul>
             </div>
-            <p>I’m currently learning <a href="https://en.wikipedia.org/wiki/Extended_reality" target="_blank" rel='noopener noreferrer' style={{ color: 'var(--red-color)'}}>XR</a> Development with <a href="https://unity.com/" target="_blank" rel='noopener noreferrer' style={{ color: 'var(--red-color)'}}>Unity</a>.</p>
           </div>
+          <p>I’m currently learning <a href="https://en.wikipedia.org/wiki/Extended_reality" target="_blank" rel='noopener noreferrer' style={{ color: 'var(--red-color)'}}>XR</a> Development with <a href="https://unity.com/" target="_blank" rel='noopener noreferrer' style={{ color: 'var(--red-color)'}}>Unity</a>.</p>
           <div className={classes.skillsFooter}>
             <p style={{ margin: "0px" }}>
               Would like to know more?
