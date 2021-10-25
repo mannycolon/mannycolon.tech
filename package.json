@@ -1,5 +1,6 @@
 {
   "name": "mannycolon.tech",
+  "description": "My Portfolio website",
   "version": "0.2.0",
   "private": true,
   "dependencies": {
