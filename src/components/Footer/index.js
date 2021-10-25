@@ -23,7 +23,7 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         <div className={classes.left}></div>
         <div className={classes.right}>
-          &copy;2018 - 2021
+          &copy;2021
           {/* powered by{" "}
           <a
             href="https://fornixsystems.com"
