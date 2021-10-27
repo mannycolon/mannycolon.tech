@@ -48,9 +48,9 @@ const profilePageStyle = {
   profile: {
     textAlign: "center",
     "& img": {
-      maxWidth: "130px",
+      maxWidth: "100px",
       width: "100%",
-      margin: "0 auto",
+      margin: "0 auto 20px",
       transform: "translate3d(0, -50%, 0)"
     }
   },
