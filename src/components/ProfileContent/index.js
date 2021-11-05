@@ -22,8 +22,7 @@ const ProfileContent = props => {
           <p className={classes.pContent}>
             My software engineering journey started in my teen years. Since a young age 
             I loved researching about technology and enjoyed watching video tutorials about 
-            computer science. I went to a technical high school where I completed a technical 
-            education program in computer science. After High school I went to Montclair State University, graduating with a Bachelors Degree in Computer Science in 2016.
+            computer science. I went to Montclair State University, graduating with a Bachelors Degree in Computer Science.
           </p>
         </div>
       </GridItem>
@@ -31,30 +30,31 @@ const ProfileContent = props => {
         <div id="skills-section" className={classes.gridItemContent}>
           <h2 className={classes.title}>Skills</h2>
           <p className={classes.pContent}>
-            My main area of expertise is Javascript full stack development.
-            I build web applications using technologies like ReactJs, NextJS, NodeJS, Express and MongoDB and many more.
+            I'm an experienced full-stack Javascript developer. I build web apps using technologies like React.js, Next.js, Node.js, Express.js, GraphQL, MongoDB and many more.
           </p>
           <div className={classes.skillsList}>
             <div>
               <h4 className={classes.skillsTitle}>Languages</h4>
               <ul className={classes.skillsUl}>
                 <li>JavaScript</li>
-                <li>Java</li>
-                <li>HTML5</li>
-                <li>CSS 3</li>
                 <li>C#</li>
                 <li>PHP</li>
                 <li>Python</li>
+                <li>Java</li>
                 <li>C++</li>
+                <li>HTML5</li>
+                <li>CSS 3</li>
               </ul>
             </div>
             <div>
               <h4 className={classes.skillsTitle}>Frameworks & Platforms</h4>
               <ul className={classes.skillsUl}>
-                <li>NodeJS</li>
-                <li>React</li>
+                <li>Node.js</li>
+                <li>React.js</li>
+                <li>Next.js</li>
                 <li>React Native</li>
-                <li>Express</li>
+                <li>Gatsby.js</li>
+                <li>Express.js</li>
                 <li>SASS / LESS</li>
               </ul>
             </div>
@@ -64,6 +64,17 @@ const ProfileContent = props => {
                 <li>MySQL</li>
                 <li>MongoDB</li>
                 <li>PostgreSQL</li>
+                <li>SQLite</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className={classes.skillsTitle}>Technologies</h4>
+              <ul className={classes.skillsUl}>
+                <li>REST</li>
+                <li>GraphQL</li>
+                <li>NPM / Yarn</li>
+                <li>Webpack</li>
+                <li>Babel</li>
               </ul>
             </div>
           </div>
