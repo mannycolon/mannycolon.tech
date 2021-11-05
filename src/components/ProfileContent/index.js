@@ -43,7 +43,8 @@ const ProfileContent = props => {
                 <li>Java</li>
                 <li>C++</li>
                 <li>HTML5</li>
-                <li>CSS 3</li>
+                <li>CSS3</li>
+                <li>SASS / LESS</li>
               </ul>
             </div>
             <div>
@@ -55,16 +56,8 @@ const ProfileContent = props => {
                 <li>React Native</li>
                 <li>Gatsby.js</li>
                 <li>Express.js</li>
-                <li>SASS / LESS</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className={classes.skillsTitle}>Databases</h4>
-              <ul className={classes.skillsUl}>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>PostgreSQL</li>
-                <li>SQLite</li>
+                <li>Electron</li>
+                <li>Jekyll</li>
               </ul>
             </div>
             <div>
@@ -75,6 +68,17 @@ const ProfileContent = props => {
                 <li>NPM / Yarn</li>
                 <li>Webpack</li>
                 <li>Babel</li>
+                <li>Cypress</li>
+                <li>Jest</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className={classes.skillsTitle}>Databases</h4>
+              <ul className={classes.skillsUl}>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+                <li>SQLite</li>
               </ul>
             </div>
           </div>
